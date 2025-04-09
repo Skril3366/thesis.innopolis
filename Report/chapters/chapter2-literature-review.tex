@@ -1,208 +1,351 @@
 \chapter{Literature Review}
-% \label{chap:lr}
-% \chaptermark{Second Chapter Heading}
 
-\section{Introduction to Blockchain in Gaming}
+\section{NFT-based Game Mechanics}
 
-Blockchain technology has revolutionized various industries by providing
-decentralized, secure, and transparent systems for data management and
-transactions. In gaming, blockchain has introduced significant innovations,
-particularly through the integration of non-fungible tokens (NFTs) and
-decentralized economies\cite{chen_blockchain_2020, bhand_mage_2024}. These technologies have reshaped traditional gaming by
-enabling true ownership of in-game assets, allowing players to trade, sell, or
-utilize digital items across platforms without relying on centralized control
+The advent of NFT-based game mechanics has revolutionized the digital gaming
+landscape by introducing novel paradigms that redefine asset ownership, player
+incentives, and interactive experiences. Central to this transformation is the
+concept of verifiable asset ownership, where blockchain technology ensures that
+digital assets are uniquely identifiable and securely traceable, challenging
+traditional centralized models. The play-to-earn reward systems further bridge
+virtual economies with real-world finance, offering players tangible financial
+incentives for their in-game achievements. Additionally, NFT breeding and
+fusion, along with asset staking and yield generation, introduce complex
+mechanisms for asset creation and passive income, respectively, while NFT
+crafting and resource transformation leverage blockchain's principles of digital
+scarcity. Rental and delegation systems enhance asset liquidity and inclusivity,
+and cross-game asset utilization extends the utility of NFTs across multiple
+platforms. Tokenized governance participation empowers players with
+decision-making capabilities, fostering a decentralized control of game
+evolution. Dynamic NFT evolution and fractional ownership systems further enrich
+the gaming experience by allowing assets to adapt over time and democratizing
+investment opportunities. Collectively, these mechanics not only enhance player
+engagement but also open new avenues for innovative monetization strategies,
+underscoring the potential and complexity inherent in NFT-based gaming.
 
-The concept of player-driven economies, supported by blockchain, has evolved
-into a defining feature of NFT-based games. Unlike traditional games, where
-assets remain locked within closed ecosystems, blockchain-enabled games empower
-players to generate real-world value from their in-game efforts. This paradigm
-shift has captured the attention of both developers and players, leading to the
-rapid growth of NFT-based games over the past decade \cite{bhand_mage_2024}.
+\subsection{Verifiable Asset Ownership}
 
-Despite their promise, blockchain technologies in gaming face notable
-challenges. Early pioneers of the space, such as collectible-focused games and
-play-to-earn models, have demonstrated the feasibility of integrating
-blockchain.\cite{jiang_cryptokitties_2021} However, these implementations often rely on basic mechanics that
-limit gameplay innovation and long-term engagement. This stagnation calls for
-further exploration of blockchain’s potential to create deeper, more
-interactive, and more dynamic gaming experiences
+Blockchain technology has transformed digital gaming by introducing verifiable
+asset ownership a marked departure from traditional centralized models.
+Conventional online games typically vest control of virtual assets in the game
+operator, which limits players’ rights regarding asset transfer and
+authenticity. In contrast, blockchain-based systems leverage decentralized
+ledgers and smart contracts to certify ownership, ensuring that digital game
+assets (such as NFTs) are uniquely identifiable and securely traceable
+\cite{minBlockchainGamesSurvey2019}. Scholars have increasingly focused on the
+technical and economic implications of this shift. The integration of
+non-fungible tokens and immutable smart contracts offers a robust method for
+verifying asset authenticity and provenance
+\cite{gaoEmpiricalStudyAdoption2021}. This verifiability is achieved through a
+combination of cryptographic techniques and decentralized storage, ensuring that
+an asset’s recorded ownership cannot be altered without detection. Nevertheless,
+challenges regarding scalability, high transaction fees, and latency have been
+identified as key obstacles to real-time asset verification
+\cite{rishiwalBlockchainSecureGamingEnvironments2024}. Moreover, although the
+decentralized framework eliminates the need for trusted intermediaries,
+questions remain about enforcing digital property rights in cross-platform
+environments and sustaining such economic models
+\cite{delfabbroUnderstandingMechanicsConsumer2022}. The theoretical
+underpinnings here that inscribing ownership directly on the blockchain not only
+enhances security but also introduces liquidity to previously illiquid digital
+assets challenge traditional approaches to asset management and open new avenues
+for innovative monetization strategies \cite{kocerEffectsBlockchainGame2022}.
+Overall, these insights establish verifiable ownership as a critical component
+for understanding subsequent blockchain innovations in gaming.
 
-In this context, blockchain serves as both a technological enabler and a
-creative challenge. By examining the trajectory of blockchain in gaming, this
-review seeks to contextualize its evolution, highlight its current applications,
-and set the stage for exploring advanced blockchain platforms, such as The Open
-Network (TON), that may redefine the boundaries of game design and player
-interaction \cite{stamatakis_blockchain-powered_2024}.
+\subsection{Play-to-Earn Reward Systems}
+
+The rapid evolution of blockchain-based gaming has fostered a paradigm in which
+financial incentives motivate gameplay and bridge the gap between virtual
+economies and real-world finance. Central to this innovation is the design of
+reward systems that convert in-game achievements into tangible assets, enabling
+players to earn tokens, NFTs, or other digital commodities convertible into fiat
+currency. A core tenet of the play-to-earn (P2E) model is to compensate players
+for the time and effort they invest, thereby addressing limitations of
+traditional gaming models where rewards are limited solely to in-game benefits
+\cite{delfabbroUnderstandingMechanicsConsumer2022}. These systems facilitate an
+open market in which earned tokens and assets can be traded or staked, linking
+player performance with financial rewards. Blockchain integration further
+ensures that reward distributions are secure, transparent, and resistant to
+tampering \cite{duguleanaEmergingTrendsPlaytoEarn2024,
+	shazhaevPlaytoHashEconomicsMetaverses2022}. However, an overemphasis on
+extrinsic financial incentives can diminish intrinsic motivators such as
+personal achievement and enjoyment. Research indicates that prioritizing
+monetary gain may transform recreational gameplay into a high-pressure economic
+endeavor \cite{delicProfilingPotentialRisks2024}, while the speculative nature
+of asset trading may introduce volatility, undermining long-term engagement
+\cite{leeExaminingConsumerMotivations2023,
+	delfabbroUnderstandingMechanicsConsumer2022}. Hence, effective P2E systems must
+carefully balance financial and intrinsic rewards to ensure sustainable and
+engaging gameplay.
+
+\subsection{NFT Breeding and Fusion}
+
+In the evolving landscape of digital asset management, NFT breeding and fusion
+have emerged as innovative mechanisms for generating, combining, and enhancing
+unique tokens. Originating in crypto-games, these processes are central both to
+the creation of novel virtual products and to broader discussions on economic
+and cultural impacts within blockchain ecosystems. Early
+implementations exemplified by projects such as CryptoKitties demonstrated that
+chance-based breeding mechanics can create NFTs with variable traits and market
+value, similar to loot boxes and gacha games
+\cite{oliverjamesscholtenEthereumCryptoGamesMechanics2019}. In addition, fusion
+techniques that consolidate multiple tokens into a single enhanced NFT add
+complexity by blending elements of randomness with engineered asset evolution.
+Critical analysis shows that NFT breeding typically relies on probabilistic
+trait inheritance, thereby incentivizing continued user engagement through the
+possibility of achieving rare characteristics
+\cite{oliverjamesscholtenEthereumCryptoGamesMechanics2019}. In parallel, fusion
+processes allow for the combination of distinct NFTs to produce composite tokens
+with augmented features for example, as seen in Nike’s CryptoKicks initiative
+\cite{volodevaBlockchainFashionIndustry2024}. Yet, economic constraints such as
+the arbitrage constraint affecting breeding outcomes highlight the necessity for
+careful balance between game tokens and market costs
+\cite{meisterNFTsGameAfoot2022}. From an implementation perspective,
+blockchain-based smart contracts enforce randomness, traceability, and
+non-fungibility, although regulatory uncertainties, market volatility, and fair
+distribution challenges persist. These discussions underscore how NFT breeding
+and fusion exemplify both the potential and the complexity inherent in
+innovative digital asset creation.
+
+\subsection{Asset Staking and Yield Generation}
+
+Asset staking and yield generation have emerged as pivotal mechanisms in
+blockchain-based gaming by offering players an alternative revenue stream. By
+committing digital assets such as tokens or NFTs to smart contracts in exchange
+for passive rewards, players are enabled to forgo immediate in-game utility in
+favor of long-term yield. Research on token circulation demonstrates that
+staking can regulate in-game economies and mitigate market volatility
+\cite{yuSoKPlaytoEarnProjects2022a}. Complementary studies further examine the
+psychological benefits of sustained passive rewards, suggesting that such
+incentives foster increased player engagement over extended periods
+\cite{duguleanaEmergingTrendsPlaytoEarn2024}. However, staking involves
+trade-offs; removing assets from active gameplay may reduce immediate
+interaction, and mandatory lock-up periods can create barriers for new players
+as well as potential economic imbalances
+\cite{meisterbernhardkNFTsGameAfoot2022}. Hence, a balanced staking mechanism
+must provide attractive passive income while preserving active gameplay
+dynamics.
+
+\subsection{NFT Crafting and Resource Transformation}
+
+NFT crafting introduces a novel game mechanic in which players combine in-game
+resources or lower-value NFTs to create new, higher-value digital assets. This
+process distinguishes itself from traditional crafting systems by incorporating
+blockchain’s principles of digital scarcity and permanence for instance,
+component NFTs are often permanently transformed or destroyed during crafting
+\cite{shiApplicationsNFTsAI2024}. Fixed or discoverable crafting recipes
+encourage strategic resource gathering, deepening player engagement and
+exploration, while probabilistic outcomes add an essential element of risk and
+reward. At the same time, the complexity of balancing resource costs with
+resultant rewards can lead to economic inflation if not managed properly
+\cite{wangNonFungibleTokenNFT2021}. Additional technical obstacles, such as
+slow transaction confirmations and high gas fees, further complicate the user
+experience and necessitate a robust interface design that accommodates NFTs both
+as collectibles and interactive game components
+\cite{murrayMechanicsBlockchainTaxonomy2022, popescuNonFungibleTokensNFT2021}.
+Thus, NFT crafting encapsulates both the promise and the challenges of merging
+traditional resource transformation with digital scarcity, a synthesis that is
+critical for the development of secure, innovative NFT-based games.
+
+\subsection{Rental and Delegation Systems}
+
+Recent advancements in blockchain gaming have highlighted the importance of
+rental and delegation systems as innovative approaches to digital asset
+management. These systems enable NFT owners to temporarily grant usage rights
+while maintaining overall ownership, thereby creating opportunities for passive
+income and expanding access to premium in-game assets. The underlying principle
+is one of efficient asset utilization; by monetizing NFTs without transferring
+full ownership, these systems enhance liquidity and inclusivity
+\cite{popescuNonFungibleTokensNFT2021,
+	shazhaevPlaytoHashEconomicsMetaverses2022}. Automated smart contracts underpin
+these mechanisms by enforcing time-limited agreements, revenue-sharing
+protocols, and safeguards against misuse
+\cite{stamatakisBlockchainPoweredGamingBridging2024}. Empirical examples such as
+scholar-manager programs observed in games like Axie Infinity demonstrate how
+lending arrangements can generate shared revenue
+\cite{tanAssetizingVideoGame2025}. Nonetheless, challenges including contractual
+exploitation \cite{delfabbroUnderstandingMechanicsConsumer2022}, asset theft,
+and market volatility necessitate robust contract design and governance
+frameworks to ensure system stability.
+
+\subsection{Cross-Game Asset Utilization}
+
+Cross-game asset utilization represents a transformative mechanism by which NFTs
+retain their identity and value across multiple digital environments. Through
+blockchain-verified credentials, an asset can function beyond the confines of a
+single game \cite{popescuNonFungibleTokensNFT2021}. This mechanism relies on
+smart contracts and shared metadata standards to ensure uniform recognition
+across diverse platforms. Initiatives like the “Nifty License” exemplify how
+assets from one game may be integrated into others such as KittyRace,
+KittyBattle, and KotoWars \cite{minBlockchainGamesSurvey2019}. By extending
+asset utility across games, this approach supports economic growth through
+cross-game marketplaces that promote liquidity and bolster player retention
+\cite{choiStudyElementsBusiness2021}. Despite its advantages, significant
+challenges remain regarding technical complexity, economic balance within game
+environments, and regulatory compliance \cite{shiApplicationsNFTsAI2024}. These
+issues underscore the need for further standardization and innovation in
+achieving true NFT interoperability.
+
+\subsection{Tokenized Governance Participation}
+
+Tokenized governance has become a transformative mechanism in NFT-based games,
+enabling decentralized control of game evolution through blockchain-based voting
+systems. By endowing players with governance tokens or NFTs, these systems allow
+for direct influence over game rules, economic models, and content updates,
+thereby aligning player interests with long-term development objectives
+\cite{muhammadDeterminantsAINonFungible2023}. Various models for distributing
+voting rights exist; some rely on direct token holdings while others incorporate
+reputation scores to prevent power concentration
+\cite{chenFrameworkBasedDAO2024}. Decentralized Autonomous Organizations (DAOs)
+facilitate community-driven proposals that shift control from developers to a
+distributed stakeholder network \cite{shazhaevPlaytoHashEconomicsMetaverses2022,
+	yuSoKPlaytoEarnProjects2022a}. Nevertheless, challenges such as voter apathy and
+plutocratic imbalances where large token holders can dominate outcomes have been
+identified \cite{yuSoKPlaytoEarnProjects2022a, conlonProblemNFTs2023}. Emerging
+solutions, including decay mechanisms for reputation scores and delegated
+voting, are being explored to address these issues
+\cite{chenFrameworkBasedDAO2024, stamatakisBlockchainPoweredGamingBridging2024}.
+Overall, tokenized governance represents an important evolution in democratizing
+decision-making in game development while incentivizing sustained stakeholder
+engagement.
+
+\subsection{Dynamic NFT Evolution}
+
+Dynamic NFT evolution extends the concept of static digital ownership by
+allowing assets to adapt and transform over time in response to gameplay events
+and external data. This mechanism leverages sophisticated smart contract designs
+to update an NFT’s metadata in real time, ensuring that every change is securely
+recorded on the blockchain \cite{barbaraguidiNFT10NFT2023}. Notable implementations include games where characters or in-game items
+evolve through level ups or trait changes triggered by user interactions or
+on-chain events  \cite{oliverjamesscholtenEthereumCryptoGamesMechanics2019,
+	patelBlockchainGamingBuilding2023}. However, the increased complexity introduced by
+dynamic evolution requires rigorous security testing and careful calibration to
+avoid gameplay imbalances, particularly when external oracles are involved.
+Despite these challenges, dynamic NFT evolution offers a promising avenue for
+enhancing interactivity and enriching the overall gaming experience.
+
+\subsection{Fractional Ownership Systems}
+
+Fractional ownership systems have emerged as a transformative paradigm in
+digital asset management by leveraging blockchain technology to democratize
+investment, enhance liquidity, and broaden market participation. By dividing
+high-value assets into smaller, tradeable tokens, these systems lower entry
+barriers and enable secure, verifiable transactions through smart contracts
+\cite{popescuNonFungibleTokensNFT2021, michiNFTArtRestrained2022}. Each
+transaction is immutably recorded on the blockchain, thereby mitigating
+traditional trust issues while facilitating risk-sharing among investors
+\cite{duguleanaEmergingTrendsPlaytoEarn2024, barbaraguidiNFT10NFT2023}. Fractional ownership has found applications in diverse fields including
+art, real estate, and decentralized finance, demonstrating its potential to
+support diversified investment strategies \cite{michiNFTArtRestrained2022,
+	marinReviewBlockchainTokens2023}. In this context,
+fractional ownership aligns with the broader objectives of this study by
+exploring secure, scalable economic models within NFT-based gaming.
 
 
-\section{Existing NFT-Based Games and Mechanics}
+\section{Comparative analysis of TON's and Ethereum's Features}
 
-NFT-based games have emerged as a transformative force in the gaming industry,
-leveraging blockchain technology to create unique digital assets that players
-can own, trade, and monetize \cite{shetty_serverfi_2024}. These games typically center
-around mechanics such as asset collection, trading, and play-to-earn models,
-which capitalize on the immutable and transparent nature of blockchain
-\cite{pfeiffer_blockchain_2020, stamatakis_blockchain-powered_2024}
+This section examines key technical differences between TON and Ethereum that
+are critical for developing NFT-based game mechanics. By comparing aspects such
+as smart contract modifiability, the atomicity of contract calls, scalability
+architecture, and off-chain asset handling, this review highlights how each
+platform’s design choices affect error management, adaptability, and
+performance. These insights set the stage for understanding which blockchain
+features best support innovative game development.
 
-One of the earliest and most influential examples is the use of collectible
-NFTs, where players acquire and trade digital assets that are provably rare and
-unique. These mechanics were popularized by games that revolved around
-ownership and scarcity, often appealing to collectors and
-investors\cite{shetty_serverfi_2024}. Another prevalent mechanism is breeding,
-which allows players to combine assets to produce new, unique NFTs, a feature
-that adds an element of creativity and strategy to gameplay
-\cite{pfeiffer_blockchain_2020, jiang_cryptokitties_2021}.
+\subsection{Smart Contract Modifiability}
 
-Play-to-earn models have further evolved the blockchain gaming space by offering
-players tangible rewards for their time and skills. These systems enable users
-to generate cryptocurrencies or other blockchain-based tokens through in-game
-activities, effectively turning games into economic ecosystems \cite{shetty_serverfi_2024}.
-The promise of financial incentives has attracted millions of players worldwide,
-but it has also introduced sustainability challenges, as many play-to-earn games
-rely on speculative market dynamics \cite{stamatakis_blockchain-powered_2024}.
+Blockchain platforms differ significantly in their approach to modifying smart
+contracts. TON offers native upgrade mechanisms that enable developers to alter
+contract logic post-deployment through built-in update functions
+\cite{songEnhancingOpenNetwork2025}. This flexibility facilitates rapid
+iteration and dynamic enhancements while minimizing downtime. In contrast,
+Ethereum enforces immutability to ensure stability and trust but requires the
+use of complex upgrade patterns—such as proxy contracts—to implement changes
+\cite{pathakInteroperabilityLegalInterpretation2024,
+	caiDecentralizedApplicationsBlockchainEmpowered2018}. Thus, while TON
+prioritizes adaptability through post-deployment modifications, Ethereum
+emphasizes security integrity at the expense of responsiveness to change.
 
-Despite their innovation, these mechanics have shown clear limitations. Many
-existing NFT games focus narrowly on economic interactions, often at the expense
-of engaging gameplay. This overemphasis on financial incentives has led to
-repetitive and shallow mechanics, failing to fully leverage blockchain's
-potential to create dynamic, interactive, and immersive experiences \cite{stamatakis_blockchain-powered_2024}
+\subsection{Atomicity in Smart Contract Calls}
 
-As the field matures, it is becoming evident that the current reliance on
-established patterns—such as trading, collecting, and play-to-earn—limits the
-scope of NFT-based gaming. To move beyond these constraints, developers must
-explore new mechanics and game designs that incorporate blockchain as a
-foundational tool for interaction and innovation, rather than just a financial
-mechanism \cite{shetty_serverfi_2024}. This necessity sets the stage for examining advanced
-blockchain solutions like TON, which offer the technical capabilities to break
-free from these traditional molds.
+The paradigms for message structure and error handling diverge markedly between
+the two platforms. TON employs a cell-based data structure in which all data,
+including messages, are stored in cells capable of holding up to 1023 bits and
+referencing up to four other cells  \cite{durovTelegramOpenNetwork2020}.
+Organized as directed acyclic graphs to prevent cyclic dependencies, this
+mechanism requires strict synchronization when serializing messages according to
+TL-B schemes ( \cite{durovTelegramOpenNetwork2020} ). The primary processing
+function, recv\_internal, explicitly manages errors by bouncing messages that
+fail processing, thereby obliging developers to address issues such as the
+“Unchecked Bounced Message” defect \cite{songEnhancingOpenNetwork2025}.
 
-\section{Challenges in Current Blockchain Gaming Ecosystems}
+By contrast, Ethereum utilizes a conventional message model within its virtual
+machine. Here, messages are virtual objects encapsulating the sender, recipient,
+ether amount, data, and a STARTGAS value, generated via the CALL opcode
+\cite{EthereumWhitepaper2025}. Ethereum’s execution model is inherently
+atomic—if any component of a transaction encounters an error, the entire
+sequence is reverted, ensuring complete transactional integrity
+\cite{buterinEthereumNextGenerationSmart2014}. This all-or-nothing approach
+simplifies failure recovery, whereas TON’s non-atomic call structure means that
+state changes made by preceding calls are not automatically rolled back on
+failure \cite{songEnhancingOpenNetwork2025}. In addition, TON’s reliance on
+builder and slice primitives for data handling demands careful synchronization
+to avoid critical errors \cite{songEnhancingOpenNetwork2025}, while Ethereum’s
+established virtual machine abstracts such complexities
+\cite{EthereumWhitepaper2025}. Together, these differences necessitate that
+developers working on TON implement more defensive programming strategies and
+explicit recovery protocols compared to the straightforward atomic transactions
+of Ethereum.
 
-While blockchain technology has introduced innovative possibilities for gaming,
-it also presents significant challenges that limit its broader adoption and the
-development of engaging gameplay experiences. These challenges span technical,
-economic, and design-related aspects, collectively hindering the evolution of
-blockchain gaming.
+\subsection{Scalability Architecture}
 
-\subsection{Technical Challenges}
+Scalability is a fundamental challenge with significant implications for
+transaction throughput and overall user experience. TON adopts an innovative
+2D-blockchain structure comprising a masterchain, multiple workchains, and
+numerous shardchains. In this configuration, the masterchain maintains protocol
+and validator data, workchains handle transactions and smart contracts under
+varied rules, and shardchains enable dynamic sharding based on account
+distribution . Although current throughput may be modest, TON’s architecture
+promises significant scalability potential as user engagement increases
+\cite{durovTelegramOpenNetwork2020}.
 
-Scalability remains one of the most pressing issues in blockchain gaming.
-Popular platforms such as Ethereum have struggled to handle the high transaction
-volumes generated by successful games, leading to network congestion and
-exorbitant gas fees\cite{min_blockchain_2019}. This creates a barrier for both developers, who must
-navigate these limitations to implement mechanics, and players, who face high
-costs for basic interactions.
+In contrast, Ethereum is constrained by its design, reliably processing around
+20 transactions per second in practice despite theoretical capacities of up to
+1,000 TPS. Extended consensus times and continuous growth in blockchain size
+exacerbate these limitations \cite{khanSystematicLiteratureReview2021}. These constraints contribute to high gas fees and network
+congestion—as seen during the CryptoKitties surge
+\cite{caiDecentralizedApplicationsBlockchainEmpowered2018, jiangCryptoKittiesTransactionNetwork2021} which
+restrict game design to simpler, turn-based mechanisms. Although TON’s dynamic
+sharding and lower transaction costs offer greater potential for intricate game
+mechanics, developers must remain mindful of challenges such as its non-atomic
+call behavior \cite{songEnhancingOpenNetwork2025}. Overall, the
+scalability comparison underscores the trade-offs between Ethereum’s established
+ecosystem and TON’s promising yet nuanced infrastructure.
 
-Interoperability is another critical obstacle. Most blockchain games operate
-within isolated ecosystems, making it difficult for assets and currencies to be
-transferred across different games or platforms. This fragmentation reduces the
-value of blockchain’s promise of open, decentralized ecosystems, limiting its
-appeal to mainstream developers and players\cite{jiang_cryptokitties_2021}.
+\subsection{Off-Chain Asset Handling}
 
-\subsection{Economic Challenges}
+Managing off-chain assets is crucial for blockchain game development,
+particularly for preserving data integrity while minimizing on-chain storage
+costs. On Ethereum, key components like metadata, images, and state data are
+typically stored off chain with only a cryptographic hash or pointer recorded on
+the blockchain \cite{patelBlockchainGamingBuilding2023,
+	arifBlockchainBasedMultiplayerTransaction2020}. This approach maintains
+verifiable ownership but can impose rigidity; modifications to off-chain asset
+references often require complex proxy patterns or complete redeployments.
 
-The heavy reliance on play-to-earn models has introduced significant economic
-risks. These models often create economies driven by speculation, where asset
-values depend on continued user growth. Such systems are prone to instability,
-leading to unsustainable boom-and-bust cycles that undermine long-term player
-trust and engagement\cite{jiang_cryptokitties_2021, jiang_towards_2022}.
-Additionally, the focus on financial incentives can overshadow gameplay quality,
-reducing the appeal of games as entertainment.
+TON addresses these challenges by supporting native smart contract
+upgradability, which allows for rapid updates to off-chain asset references
+without resorting to intricate workarounds \cite{songEnhancingOpenNetwork2025}.
+When combined with its 2D blockchain architecture, TON is well positioned to
+manage high volumes of transactions. Furthermore, its non-atomic call mechanism
+permits incremental updates by enabling partial transaction commitment in the
+event of processing errors \cite{songEnhancingOpenNetwork2025}. In this way,
+TON’s flexible approach to error handling and system updates contrasts with
+Ethereum’s all-or-nothing model, offering enhanced adaptability for dynamic
+off-chain asset management.
 
-\subsection{Game Design Challenges}
 
-Designing engaging and innovative gameplay within the constraints of blockchain
-technology is a complex task. Many developers default to simplistic mechanics
-such as trading and collecting, which, while leveraging blockchain’s strengths,
-fail to offer rich, interactive experiences. Furthermore, the technical
-complexity of blockchain development poses a steep learning curve for game
-designers, limiting the exploration of creative mechanics that take full
-advantage of blockchain’s capabilities.
-
-These challenges underscore the need for blockchain solutions that address
-scalability, interoperability, and economic sustainability while empowering
-developers to innovate. Emerging platforms like TON, with their advanced
-architectures and enhanced transaction efficiencies, offer potential pathways to
-overcome these barriers and redefine the blockchain gaming landscape.
-
-% \section{Innovation in NFT mechanics}
-%
-% % tags: Game mechanics
-%
-% % Innovations (or lack thereof) in NFT gaming mechanics
-% % - [ ] Summary of relevant sources.
-% % - [ ] How it relates to your research.
-% % - [ ] Identified gaps.
-%
-% The stagnation in the development of innovative gaming mechanics within
-% blockchain-based games is largely attributed to persistent challenges in
-% maintaining player engagement and market stability. While blockchain technology
-% has enabled the introduction of advanced economic models, gameplay mechanics
-% often remain insufficiently developed, leading to an overreliance on financial
-% incentives rather than fostering engaging gameplay experiences.
-%
-% Blockchain-based games have pioneered novel economic models, such as those
-% outlined in the ServerFi framework, which focus on enhancing player engagement
-% through mechanisms like asset synthesis and continuous reward distribution
-% \cite{shetty_serverfi_2024}. However, many blockchain games face significant
-% challenges in player retention. For instance, a case study on Aavegotchi
-% demonstrated that a limited number of dedicated players drive most engagement,
-% highlighting the lack of widespread appeal \cite{jiang_towards_2022}.
-%
-% \reformulate{Technological Limitations}
-%
-% The inherent complexity of blockchain technology presents a significant obstacle
-% for game developers, restricting their ability to explore and implement
-% innovative mechanics. While middleware solutions are being developed to simplify
-% integration, these technologies remain in their nascent stages
-% \cite{shcherba_blockchain_2021}. Furthermore, the prevalence of fraudulent
-% activities and market instability erodes trust in blockchain-based games,
-% further inhibiting the progression of innovation in this domain
-% \cite{pfeiffer_blockchain_2020}
-%
-%
-% \section{Blockchain-based game mechanics}
-%
-% % tags: Game mechanics
-%
-% % - [ ] Summary of relevant sources.
-% % - [ ] How it relates to your research.
-% % - [ ] Identified gaps.
-%
-%
-% \section{Security Challenges}
-%
-% % Security challenges in blockchain games
-% % - [ ] Summary of relevant sources.
-% % - [ ] How it relates to your research.
-% % - [ ] Identified gaps.
-%
-% \section{TON's Scalability and Game Applications}
-%
-% % Tags: Technical, TON
-%
-%
-% % Technical capabilities of TON (e.g., scalability, sharding, smart contracts)
-% % - [ ] Summary of relevant sources.
-% % - [ ] How it relates to your research.
-% % - [ ] Identified gaps.
-%
-% \section{Comparative Analysis of the TON Blockchain and Other Leading Blockchain Platforms}
-%
-% % Comparative studies on TON vs. other blockchains (e.g., Ethereum, Solana)
-% % - [ ] Summary of relevant sources.
-% % - [ ] How it relates to your research.
-% % - [ ] Identified gaps.
-%
-% \section{Conclusion}
-%
-% % - [ ] Conclusion: Summarize findings,
-% % - [ ] justify your focus on TON,
-% % - [ ] and outline your methodological approach (e.g., "By leveraging TON's
-% %   unique scalability and sharding capabilities, this study addresses the
-% %   stagnation of NFT mechanics.").
-%
-% Despite these challenges, there remains considerable potential for growth in
-% the field as developers experiment with alternative models and focus on
-% refining gameplay mechanics, indicating that the observed stagnation may only
-% be temporary
+% TODO:
+% \section{Security Challenges in Smart Contract Development}
+% \section{The Need For a Novel Approach}
